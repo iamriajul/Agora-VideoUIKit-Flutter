@@ -22,15 +22,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: io.agora.agora_uikit
-        pluginClass: AgoraUikitPlugin
-      ios:
-        pluginClass: AgoraUikitPlugin
-
 analyzer:
   strong-mode: true
   errors:
